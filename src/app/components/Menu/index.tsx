@@ -78,7 +78,7 @@ export default function Menu() {
         >
           <List>
             {menuItems.map((item) => (
-              <ListItem button key={item.text}>
+              <ListItem key={item.text}>
                 <Link href={item.href} passHref>
                   <ListItemText primary={item.text} />
                 </Link>
