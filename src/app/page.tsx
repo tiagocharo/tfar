@@ -1,5 +1,4 @@
 // import Image from "next/image";
-import Link from "next/link";
 import Animation from "./components/Animation";
 import { Button } from "@mui/material";
 import Menu from "./components/Menu";
